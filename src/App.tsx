@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>ci test</p>
+      <p>ci/cd test</p>
     </div>
   );
 }
