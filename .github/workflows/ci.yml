@@ -1,7 +1,8 @@
 name: continuous intergration
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [feat/*]
 
 jobs:
   test:
