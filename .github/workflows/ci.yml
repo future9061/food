@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: eslint
-        run: eslint
+        run: npm run eslint
 
       - name: build
         run: npm run build
