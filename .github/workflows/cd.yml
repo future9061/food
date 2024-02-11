@@ -21,7 +21,7 @@ jobs:
       - name: 리액트 빌드 & lint 확인
         run: |
           npm install
-          npm run run eslint
+          npm run eslint
           npm run build
 
       - name: 빌드한 파일 S3에 업로드
